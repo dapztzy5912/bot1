@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Bot WhatsApp respon .done otomatis dengan nomor urutan.",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "DapzTzy5912",
+  "author": "Bot by Dafa",
   "dependencies": {
     "baileys": "^6.7.4",
     "pino": "^8.0.0"
