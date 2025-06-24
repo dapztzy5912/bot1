@@ -1,6 +1,6 @@
-import makeWASocket, { useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion } from '@whiskeysockets/baileys'
-import pino from 'pino'
-import fs from 'fs'
+const { default: makeWASocket, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion } = require('@whiskeysockets/baileys')
+const pino = require('pino')
+const fs = require('fs')
 
 // Load counter
 let counter = JSON.parse(fs.readFileSync('./counter.json'))
